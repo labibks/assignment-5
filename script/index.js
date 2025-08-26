@@ -40,7 +40,7 @@ getElement("service-box").addEventListener("click",function(e){
             return
         }
 
-        alert(serviceName + "-" + serviceNumber)
+        alert("📞" + "Calling " + serviceName + "-" + serviceNumber)
         coins -= 20;
         navCoinBtn.innerText = coins;
         // new element creat
