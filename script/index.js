@@ -78,7 +78,7 @@ getElement("service-box").addEventListener("click", function (e) {
         // console.log(navCopyBtn)
         const serviceNumber = copyBtn.parentNode.parentNode.children[2].children[0].innerText
           console.log(serviceNumber)
-    // console.log(navHeartBtn);
+    
     // copy paste requiared
     navigator.clipboard.writeText(serviceNumber);
     // alert
