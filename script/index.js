@@ -1,6 +1,6 @@
 function getElement(id){
  const element = document.getElementById(id)
- return element
+ return element;
 }
 
 // heart button count
